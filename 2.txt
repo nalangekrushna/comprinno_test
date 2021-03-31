@@ -1,0 +1,15 @@
+1. take all inputs as tuple inside list format.
+2. sort all inputs by sum of there elements from lowest to highest.
+3. create an empty list named results
+4. for every list in input
+		for every tuple in list upto second last tuple
+			check if second tuple elements are greater or equal to first tuple elements.
+				if true then check sum of tuple elements of first is equal or greater than second
+					append no to results
+					break
+			else append no to results
+				 break
+		loop completed by exhaustion add yes to results list.
+5.  return results	
+		
+			
